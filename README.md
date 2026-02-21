@@ -1,10 +1,10 @@
-# 🛡️ CyberBrief — Automated Threat Intelligence Pipeline
+# CyberBrief — Automated Threat Intelligence Pipeline
 
 > A beginner-friendly homelab project that teaches threat intelligence, automation, and AI integration using n8n, OpenAI, and Telegram.
 
 ---
 
-## 📌 What You Will Build
+## What You Will Build
 
 A fully automated **Daily Cyber Threat Brief** that:
 - Ingests live cybersecurity news from 5+ RSS sources
@@ -16,7 +16,7 @@ A fully automated **Daily Cyber Threat Brief** that:
 
 ---
 
-## 🎯 Learning Objectives
+## Learning Objectives
 
 By completing this project, you will understand:
 
@@ -372,20 +372,6 @@ Not all security news is equally urgent. A zero-day being actively exploited req
 
 ### What does the AI do?
 The AI (GPT) acts as an analyst assistant. It receives the top scored articles and writes a structured briefing in the format a SOC analyst would want to read — concise, actionable, and organized by threat category.
-
----
-
-## 🏆 Stretch Challenges
-
-Once you complete the base project, try these:
-
-| Challenge | Difficulty |
-|---|---|
-| Add a 6th RSS source (e.g. NIST NVD) | ⭐ Easy |
-| Log all IOCs to Google Sheets automatically | ⭐⭐ Medium |
-| Add a Slack delivery channel in parallel | ⭐⭐ Medium |
-| Build a weekly "trend report" that analyzes the week's briefs | ⭐⭐⭐ Hard |
-| Add VirusTotal enrichment for any IPs/domains found | ⭐⭐⭐ Hard |
 
 ---
 
